@@ -8,6 +8,8 @@
 #include "alglib/optimization.h"
 #include "alglib/dataanalysis.h"
 #include "alglib/alglibmisc.h"
+
+#include "RFWeights.h"
 using namespace std;
 using namespace alglib;
 

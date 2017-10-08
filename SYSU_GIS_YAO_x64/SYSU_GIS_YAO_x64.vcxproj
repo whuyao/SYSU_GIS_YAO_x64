@@ -84,6 +84,7 @@
     <ClCompile Include="GDALRead.cpp" />
     <ClCompile Include="GDALWrite.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="RFWeights.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="alglib\alglibinternal.h" />
@@ -102,6 +103,7 @@
     <ClInclude Include="alglib\stdafx.h" />
     <ClInclude Include="GDALRead.h" />
     <ClInclude Include="GDALWrite.h" />
+    <ClInclude Include="RFWeights.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

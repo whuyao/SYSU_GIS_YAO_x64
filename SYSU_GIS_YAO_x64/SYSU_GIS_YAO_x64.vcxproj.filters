@@ -77,6 +77,9 @@
     <ClCompile Include="alglib\statistics.cpp">
       <Filter>Source Files\alglib</Filter>
     </ClCompile>
+    <ClCompile Include="RFWeights.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="GDALRead.h">
@@ -126,6 +129,9 @@
     </ClInclude>
     <ClInclude Include="alglib\stdafx.h">
       <Filter>Source Files\alglib</Filter>
+    </ClInclude>
+    <ClInclude Include="RFWeights.h">
+      <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
