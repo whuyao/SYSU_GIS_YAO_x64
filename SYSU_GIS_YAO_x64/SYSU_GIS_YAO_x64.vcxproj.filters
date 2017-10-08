@@ -24,6 +24,9 @@
       <Extensions>moc;h;cpp</Extensions>
       <SourceControlFiles>False</SourceControlFiles>
     </Filter>
+    <Filter Include="Source Files\alglib">
+      <UniqueIdentifier>{b9562722-7772-423b-bcab-dacd9f7fd7ec}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -35,6 +38,45 @@
     <ClCompile Include="GDALWrite.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="alglib\alglibinternal.cpp">
+      <Filter>Source Files\alglib</Filter>
+    </ClCompile>
+    <ClCompile Include="alglib\alglibmisc.cpp">
+      <Filter>Source Files\alglib</Filter>
+    </ClCompile>
+    <ClCompile Include="alglib\ap.cpp">
+      <Filter>Source Files\alglib</Filter>
+    </ClCompile>
+    <ClCompile Include="alglib\dataanalysis.cpp">
+      <Filter>Source Files\alglib</Filter>
+    </ClCompile>
+    <ClCompile Include="alglib\diffequations.cpp">
+      <Filter>Source Files\alglib</Filter>
+    </ClCompile>
+    <ClCompile Include="alglib\fasttransforms.cpp">
+      <Filter>Source Files\alglib</Filter>
+    </ClCompile>
+    <ClCompile Include="alglib\integration.cpp">
+      <Filter>Source Files\alglib</Filter>
+    </ClCompile>
+    <ClCompile Include="alglib\interpolation.cpp">
+      <Filter>Source Files\alglib</Filter>
+    </ClCompile>
+    <ClCompile Include="alglib\linalg.cpp">
+      <Filter>Source Files\alglib</Filter>
+    </ClCompile>
+    <ClCompile Include="alglib\optimization.cpp">
+      <Filter>Source Files\alglib</Filter>
+    </ClCompile>
+    <ClCompile Include="alglib\solvers.cpp">
+      <Filter>Source Files\alglib</Filter>
+    </ClCompile>
+    <ClCompile Include="alglib\specialfunctions.cpp">
+      <Filter>Source Files\alglib</Filter>
+    </ClCompile>
+    <ClCompile Include="alglib\statistics.cpp">
+      <Filter>Source Files\alglib</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="GDALRead.h">
@@ -42,6 +84,48 @@
     </ClInclude>
     <ClInclude Include="GDALWrite.h">
       <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="alglib\alglibinternal.h">
+      <Filter>Source Files\alglib</Filter>
+    </ClInclude>
+    <ClInclude Include="alglib\alglibmisc.h">
+      <Filter>Source Files\alglib</Filter>
+    </ClInclude>
+    <ClInclude Include="alglib\ap.h">
+      <Filter>Source Files\alglib</Filter>
+    </ClInclude>
+    <ClInclude Include="alglib\dataanalysis.h">
+      <Filter>Source Files\alglib</Filter>
+    </ClInclude>
+    <ClInclude Include="alglib\diffequations.h">
+      <Filter>Source Files\alglib</Filter>
+    </ClInclude>
+    <ClInclude Include="alglib\fasttransforms.h">
+      <Filter>Source Files\alglib</Filter>
+    </ClInclude>
+    <ClInclude Include="alglib\integration.h">
+      <Filter>Source Files\alglib</Filter>
+    </ClInclude>
+    <ClInclude Include="alglib\interpolation.h">
+      <Filter>Source Files\alglib</Filter>
+    </ClInclude>
+    <ClInclude Include="alglib\linalg.h">
+      <Filter>Source Files\alglib</Filter>
+    </ClInclude>
+    <ClInclude Include="alglib\optimization.h">
+      <Filter>Source Files\alglib</Filter>
+    </ClInclude>
+    <ClInclude Include="alglib\solvers.h">
+      <Filter>Source Files\alglib</Filter>
+    </ClInclude>
+    <ClInclude Include="alglib\specialfunctions.h">
+      <Filter>Source Files\alglib</Filter>
+    </ClInclude>
+    <ClInclude Include="alglib\statistics.h">
+      <Filter>Source Files\alglib</Filter>
+    </ClInclude>
+    <ClInclude Include="alglib\stdafx.h">
+      <Filter>Source Files\alglib</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

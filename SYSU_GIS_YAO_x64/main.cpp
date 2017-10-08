@@ -2,7 +2,14 @@
 #include <iostream>
 #include "gdal_priv.h"
 #include "ogrsf_frmts.h"
+#include "GDALRead.h"
+
+#include "alglib/statistics.h"
+#include "alglib/optimization.h"
+#include "alglib/dataanalysis.h"
+#include "alglib/alglibmisc.h"
 using namespace std;
+using namespace alglib;
 
 int main(int argc, char *argv[])
 {
